@@ -7,7 +7,7 @@ namespace FluentDesignPattern
         static void Main(string[] args = null)
         {
             Console.WriteLine("####### Fluent Design Pattern Example #####");
-            Console.WriteLine("####### Using method chaining concept #####");            
+                 
             var employeeObj = new Employee().SetFullName("Kanishka Hewapathirana").
                                              Born("06/09/1988").
                                              LivesOn("Colombo 7").
